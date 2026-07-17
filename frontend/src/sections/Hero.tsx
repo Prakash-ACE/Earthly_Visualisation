@@ -3,9 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useCalendly } from '../hooks/useCalendly';
 
 const slides = [
-  'https://picsum.photos/1920/1080?random=1',
-  'https://picsum.photos/1920/1080?random=2',
-  'https://picsum.photos/1920/1080?random=3',
+  '/hero/1.jpeg',
+  '/hero/2.jpeg',
+  '/hero/3.jpeg',
+  '/hero/View10.jpg',
+  '/hero/View15.jpg',
 ];
 
 const Hero = () => {

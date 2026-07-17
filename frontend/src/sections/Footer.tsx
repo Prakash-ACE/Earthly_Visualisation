@@ -26,9 +26,9 @@ const Footer = () => {
             Book a Call
           </button>
           <div className="font-sans text-[#E8E8E4] text-sm md:text-right space-y-2 mt-2 font-light">
-            <p className="flex items-center md:justify-end gap-3"><span className="text-[#C8A96E]">📧</span> hello@earthlyvisualisation.com</p>
-            <p className="flex items-center md:justify-end gap-3"><span className="text-[#C8A96E]">📱</span> +44 XXXX XXXXXX</p>
-            <p className="flex items-center md:justify-end gap-3"><span className="text-[#C8A96E]">📍</span> London, United Kingdom</p>
+            <p className="flex items-center md:justify-end gap-3"><span className="text-[#C8A96E]">📧</span> pandyadhartiwork@gmail.com</p>
+            <p className="flex items-center md:justify-end gap-3"><span className="text-[#C8A96E]">📱</span> +91 91575 57777</p>
+            <p className="flex items-center md:justify-end gap-3"><span className="text-[#C8A96E]">📍</span> A-1256 Money Plant High Street, Jagatpur Road, near BSNL Office, off Sarkhej-Gandhinagar Highway (SG Highway), Gota, Ahmedabad, Gujarat - 382470</p>
           </div>
         </div>
       </div>

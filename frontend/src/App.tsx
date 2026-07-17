@@ -5,7 +5,7 @@ import Portfolio from './sections/Portfolio';
 import Stats from './sections/Stats';
 import Pricing from './sections/Pricing';
 import QuoteForm from './sections/QuoteForm';
-import Clients from './sections/Clients';
+// import Clients from './sections/Clients';
 import Footer from './sections/Footer';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Stats />
         <Pricing />
         <QuoteForm />
-        <Clients />
+        {/* <Clients /> */}
       </main>
       <Footer />
     </div>

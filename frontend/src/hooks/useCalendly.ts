@@ -8,7 +8,7 @@ export const useCalendly = () => {
   const openCalendly = () => {
     if (window.Calendly) {
       window.Calendly.initPopupWidget({
-        url: 'https://calendly.com/YOUR_CALENDLY_LINK', // TODO: Replace with real URL
+        url: 'https://calendly.com/earthly-visuals',
       });
     }
   };

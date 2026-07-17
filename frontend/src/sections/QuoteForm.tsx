@@ -23,7 +23,8 @@ const QuoteForm = () => {
     setLoading(true);
     setStatus('idle');
     try {
-      await axios.post('http://localhost:8000/api/quote', formData);
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+      await axios.post(`${apiUrl}/api/quote`, formData);
       setStatus('success');
       setFormData({ name: '', email: '', phone: '', project_type: '', description: '' });
     } catch (err) {
